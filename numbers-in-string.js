@@ -1,11 +1,4 @@
-const findNumbers = str => {
-    let counter = 0;
-    str.split('').forEach(item => {
-      if (isFinite(+item)){
-        counter++
-      }
-    });
-    return counter;
-  }
-  
-  console.log(findNumbers('abra213ergkdflg45345dkfgmdfg3544'));
+function num (str) {
+    return str.split('').filter(x => isNaN(x)).join('');
+ }
+ console.log(num('fsdgh43bsdf5'));
