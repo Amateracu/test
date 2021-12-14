@@ -1,4 +1,5 @@
-function num (str) {
-    return str.split('').filter(x => isNaN(x)).join('');
- }
- console.log(num('fsdgh43bsdf5'));
+let a = 'dasdasda12d31sada3123r443dff1';
+
+const b = a.split('').filter(e => Number.isInteger(+e))
+    
+console.log(b.length);
