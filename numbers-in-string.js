@@ -7,5 +7,5 @@ const findNumbers = str => {
     });
     return counter;
   }
-  
+  //fsjgkflsd
   console.log(findNumbers('abra213ergkdflg45345dkfgmdfg3544'));
