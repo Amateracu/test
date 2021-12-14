@@ -1,11 +1,5 @@
-const findNumbers = str => {
-    let counter = 0;
-    str.split('').forEach(item => {
-      if (isFinite(+item)){
-        counter++
-      }
-    });
-    return counter;
-  }
-  
-  console.log(findNumbers('abra213ergkdflg45345dkfgmdfg3544'));
+let a = 'dasdasda12d31sada3123r443dff1';
+
+const b = a.split('').filter(e => Number.isInteger(+e))
+    
+console.log(b.length);
